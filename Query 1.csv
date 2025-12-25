@@ -1,0 +1,11 @@
+country_name,region,income_group,year,gini_coefficient,income_share_lowest_20pct,income_share_highest_20pct,palma_ratio
+Tanzania,Sub-Saharan Africa,Lower middle income,2023,65.11,7.19,45.21,3.14
+Nigeria,Sub-Saharan Africa,Lower middle income,2023,64.05,7.73,48.23,3.12
+Ethiopia,Sub-Saharan Africa,Low income,2023,59.57,8.89,45.33,2.55
+Brazil,Latin America & Caribbean,Upper middle income,2023,55.5,4.5,42.14,4.68
+Rwanda,Sub-Saharan Africa,Low income,2023,54.65,6.1,48.62,3.98
+Mexico,Latin America & Caribbean,Upper middle income,2023,49.23,4.29,41.42,4.83
+Ghana,Sub-Saharan Africa,Lower middle income,2023,47.65,4.41,51.44,5.83
+Kenya,Sub-Saharan Africa,Lower middle income,2023,47.3,4.45,48.47,5.45
+Argentina,Latin America & Caribbean,Upper middle income,2023,46.32,5.98,46.77,3.91
+Chile,Latin America & Caribbean,High income,2023,45.63,5.82,53.09,4.56

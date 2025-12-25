@@ -1,0 +1,5 @@
+spending_quartile,spending_category,country_count,avg_edu_spending_pct_gdp,avg_gini,avg_poverty_rate,avg_secondary_enrollment
+1,Lowest 25%,12,3.64,42.03,24.29,78.88
+2,Low-Medium 25%,12,4.35,37.95,22.37,86.24
+3,Medium-High 25%,12,4.9,40.92,9.43,94.41
+4,Highest 25%,12,5.51,36.38,8.6,99.34
