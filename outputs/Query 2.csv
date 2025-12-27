@@ -1,0 +1,193 @@
+country_name,region,year,gdp_per_capita,previous_year_gdp,yoy_growth_pct
+Argentina,Latin America & Caribbean,2023,21274.0,24648.0,-13.69
+Argentina,Latin America & Caribbean,2022,24648.0,19632.0,25.55
+Argentina,Latin America & Caribbean,2021,19632.0,13975.0,40.48
+Argentina,Latin America & Caribbean,2020,13975.0,19192.0,-27.19
+Australia,East Asia & Pacific,2023,84741.0,77071.0,9.95
+Australia,East Asia & Pacific,2022,77071.0,77377.0,-0.39
+Australia,East Asia & Pacific,2021,77377.0,62463.0,23.88
+Australia,East Asia & Pacific,2020,62463.0,74823.0,-16.52
+Austria,Europe & Central Asia,2023,71460.0,66722.0,7.1
+Austria,Europe & Central Asia,2022,66722.0,71694.0,-6.93
+Austria,Europe & Central Asia,2021,71694.0,49427.0,45.05
+Austria,Europe & Central Asia,2020,49427.0,68356.0,-27.69
+Belgium,Europe & Central Asia,2023,87264.0,76238.0,14.46
+Belgium,Europe & Central Asia,2022,76238.0,75269.0,1.29
+Belgium,Europe & Central Asia,2021,75269.0,62009.0,21.38
+Belgium,Europe & Central Asia,2020,62009.0,76200.0,-18.62
+Brazil,Latin America & Caribbean,2023,20976.0,17243.0,21.64
+Brazil,Latin America & Caribbean,2022,17243.0,20403.0,-15.49
+Brazil,Latin America & Caribbean,2021,20403.0,11507.0,77.31
+Brazil,Latin America & Caribbean,2020,11507.0,17379.0,-33.79
+Canada,North America,2023,94389.0,88066.0,7.18
+Canada,North America,2022,88066.0,83783.0,5.11
+Canada,North America,2021,83783.0,61498.0,36.24
+Canada,North America,2020,61498.0,84605.0,-27.31
+Chile,Latin America & Caribbean,2023,81264.0,73459.0,10.63
+Chile,Latin America & Caribbean,2022,73459.0,74394.0,-1.26
+Chile,Latin America & Caribbean,2021,74394.0,52359.0,42.08
+Chile,Latin America & Caribbean,2020,52359.0,74183.0,-29.42
+China,East Asia & Pacific,2023,26249.0,28968.0,-9.39
+China,East Asia & Pacific,2022,28968.0,24714.0,17.21
+China,East Asia & Pacific,2021,24714.0,17619.0,40.27
+China,East Asia & Pacific,2020,17619.0,22667.0,-22.27
+Czech Republic,Europe & Central Asia,2023,92899.0,89544.0,3.75
+Czech Republic,Europe & Central Asia,2022,89544.0,86724.0,3.25
+Czech Republic,Europe & Central Asia,2021,86724.0,60115.0,44.26
+Czech Republic,Europe & Central Asia,2020,60115.0,81042.0,-25.82
+Denmark,Europe & Central Asia,2023,82092.0,76988.0,6.63
+Denmark,Europe & Central Asia,2022,76988.0,77510.0,-0.67
+Denmark,Europe & Central Asia,2021,77510.0,60335.0,28.47
+Denmark,Europe & Central Asia,2020,60335.0,74950.0,-19.5
+Egypt,Middle East & North Africa,2023,6014.0,5702.0,5.46
+Egypt,Middle East & North Africa,2022,5702.0,6113.0,-6.71
+Egypt,Middle East & North Africa,2021,6113.0,3732.0,63.79
+Egypt,Middle East & North Africa,2020,3732.0,5199.0,-28.22
+Ethiopia,Sub-Saharan Africa,2023,1203.0,1251.0,-3.8
+Ethiopia,Sub-Saharan Africa,2022,1251.0,1112.0,12.46
+Ethiopia,Sub-Saharan Africa,2021,1112.0,745.0,49.32
+Ethiopia,Sub-Saharan Africa,2020,745.0,1027.0,-27.48
+Finland,Europe & Central Asia,2023,61986.0,65188.0,-4.91
+Finland,Europe & Central Asia,2022,65188.0,62303.0,4.63
+Finland,Europe & Central Asia,2021,62303.0,44017.0,41.54
+Finland,Europe & Central Asia,2020,44017.0,58507.0,-24.77
+France,Europe & Central Asia,2023,86358.0,84012.0,2.79
+France,Europe & Central Asia,2022,84012.0,82044.0,2.4
+France,Europe & Central Asia,2021,82044.0,56113.0,46.21
+France,Europe & Central Asia,2020,56113.0,75613.0,-25.79
+Germany,Europe & Central Asia,2023,65794.0,63036.0,4.37
+Germany,Europe & Central Asia,2022,63036.0,64506.0,-2.28
+Germany,Europe & Central Asia,2021,64506.0,51545.0,25.14
+Germany,Europe & Central Asia,2020,51545.0,63254.0,-18.51
+Ghana,Sub-Saharan Africa,2023,13402.0,11352.0,18.07
+Ghana,Sub-Saharan Africa,2022,11352.0,10800.0,5.11
+Ghana,Sub-Saharan Africa,2021,10800.0,6284.0,71.86
+Ghana,Sub-Saharan Africa,2020,6284.0,10064.0,-37.56
+Greece,Europe & Central Asia,2023,60891.0,66751.0,-8.78
+Greece,Europe & Central Asia,2022,66751.0,63181.0,5.65
+Greece,Europe & Central Asia,2021,63181.0,47509.0,32.99
+Greece,Europe & Central Asia,2020,47509.0,61373.0,-22.59
+Hungary,Europe & Central Asia,2023,93591.0,84362.0,10.94
+Hungary,Europe & Central Asia,2022,84362.0,84276.0,0.1
+Hungary,Europe & Central Asia,2021,84276.0,68318.0,23.36
+Hungary,Europe & Central Asia,2020,68318.0,79181.0,-13.72
+India,South Asia,2023,10909.0,11068.0,-1.43
+India,South Asia,2022,11068.0,8617.0,28.44
+India,South Asia,2021,8617.0,5660.0,52.25
+India,South Asia,2020,5660.0,8665.0,-34.68
+Indonesia,East Asia & Pacific,2023,21794.0,22900.0,-4.83
+Indonesia,East Asia & Pacific,2022,22900.0,24242.0,-5.53
+Indonesia,East Asia & Pacific,2021,24242.0,14483.0,67.37
+Indonesia,East Asia & Pacific,2020,14483.0,21517.0,-32.69
+Italy,Europe & Central Asia,2023,55981.0,51460.0,8.79
+Italy,Europe & Central Asia,2022,51460.0,51013.0,0.88
+Italy,Europe & Central Asia,2021,51013.0,39645.0,28.67
+Italy,Europe & Central Asia,2020,39645.0,47136.0,-15.89
+Japan,East Asia & Pacific,2023,74343.0,79873.0,-6.92
+Japan,East Asia & Pacific,2022,79873.0,78360.0,1.93
+Japan,East Asia & Pacific,2021,78360.0,52251.0,49.97
+Japan,East Asia & Pacific,2020,52251.0,74430.0,-29.8
+Kenya,Sub-Saharan Africa,2023,7814.0,7597.0,2.85
+Kenya,Sub-Saharan Africa,2022,7597.0,6234.0,21.86
+Kenya,Sub-Saharan Africa,2021,6234.0,4086.0,52.59
+Kenya,Sub-Saharan Africa,2020,4086.0,5571.0,-26.67
+Malaysia,East Asia & Pacific,2023,23680.0,17820.0,32.89
+Malaysia,East Asia & Pacific,2022,17820.0,20102.0,-11.36
+Malaysia,East Asia & Pacific,2021,20102.0,12002.0,67.49
+Malaysia,East Asia & Pacific,2020,12002.0,16959.0,-29.23
+Mexico,Latin America & Caribbean,2023,27816.0,24237.0,14.76
+Mexico,Latin America & Caribbean,2022,24237.0,27775.0,-12.74
+Mexico,Latin America & Caribbean,2021,27775.0,15146.0,83.37
+Mexico,Latin America & Caribbean,2020,15146.0,22248.0,-31.92
+Morocco,Middle East & North Africa,2023,11693.0,10340.0,13.09
+Morocco,Middle East & North Africa,2022,10340.0,9585.0,7.87
+Morocco,Middle East & North Africa,2021,9585.0,6271.0,52.86
+Morocco,Middle East & North Africa,2020,6271.0,8961.0,-30.03
+Netherlands,Europe & Central Asia,2023,77182.0,70931.0,8.81
+Netherlands,Europe & Central Asia,2022,70931.0,71818.0,-1.24
+Netherlands,Europe & Central Asia,2021,71818.0,50318.0,42.73
+Netherlands,Europe & Central Asia,2020,50318.0,67133.0,-25.05
+New Zealand,East Asia & Pacific,2023,78587.0,80887.0,-2.84
+New Zealand,East Asia & Pacific,2022,80887.0,72400.0,11.72
+New Zealand,East Asia & Pacific,2021,72400.0,57296.0,26.36
+New Zealand,East Asia & Pacific,2020,57296.0,70227.0,-18.41
+Nigeria,Sub-Saharan Africa,2023,6717.0,6213.0,8.1
+Nigeria,Sub-Saharan Africa,2022,6213.0,6154.0,0.96
+Nigeria,Sub-Saharan Africa,2021,6154.0,3570.0,72.37
+Nigeria,Sub-Saharan Africa,2020,3570.0,5049.0,-29.29
+Norway,Europe & Central Asia,2023,74421.0,78302.0,-4.96
+Norway,Europe & Central Asia,2022,78302.0,74663.0,4.87
+Norway,Europe & Central Asia,2021,74663.0,54085.0,38.05
+Norway,Europe & Central Asia,2020,54085.0,71791.0,-24.66
+Philippines,East Asia & Pacific,2023,10879.0,10577.0,2.86
+Philippines,East Asia & Pacific,2022,10577.0,9986.0,5.92
+Philippines,East Asia & Pacific,2021,9986.0,6106.0,63.55
+Philippines,East Asia & Pacific,2020,6106.0,8507.0,-28.23
+Poland,Europe & Central Asia,2023,54300.0,54465.0,-0.3
+Poland,Europe & Central Asia,2022,54465.0,51042.0,6.71
+Poland,Europe & Central Asia,2021,51042.0,41727.0,22.32
+Poland,Europe & Central Asia,2020,41727.0,52251.0,-20.14
+Portugal,Europe & Central Asia,2023,73201.0,65568.0,11.64
+Portugal,Europe & Central Asia,2022,65568.0,63215.0,3.72
+Portugal,Europe & Central Asia,2021,63215.0,48903.0,29.26
+Portugal,Europe & Central Asia,2020,48903.0,63304.0,-22.75
+Russia,Europe & Central Asia,2023,16821.0,14343.0,17.28
+Russia,Europe & Central Asia,2022,14343.0,15898.0,-9.78
+Russia,Europe & Central Asia,2021,15898.0,9100.0,74.7
+Russia,Europe & Central Asia,2020,9100.0,15059.0,-39.57
+Rwanda,Sub-Saharan Africa,2023,2351.0,2119.0,10.96
+Rwanda,Sub-Saharan Africa,2022,2119.0,2216.0,-4.4
+Rwanda,Sub-Saharan Africa,2021,2216.0,1310.0,69.26
+Rwanda,Sub-Saharan Africa,2020,1310.0,2009.0,-34.83
+Singapore,East Asia & Pacific,2023,79148.0,79953.0,-1.01
+Singapore,East Asia & Pacific,2022,79953.0,76603.0,4.37
+Singapore,East Asia & Pacific,2021,76603.0,60137.0,27.38
+Singapore,East Asia & Pacific,2020,60137.0,79472.0,-24.33
+South Africa,Sub-Saharan Africa,2023,20172.0,18215.0,10.74
+South Africa,Sub-Saharan Africa,2022,18215.0,18489.0,-1.48
+South Africa,Sub-Saharan Africa,2021,18489.0,12645.0,46.21
+South Africa,Sub-Saharan Africa,2020,12645.0,18320.0,-30.98
+South Korea,East Asia & Pacific,2023,58969.0,54708.0,7.79
+South Korea,East Asia & Pacific,2022,54708.0,51720.0,5.78
+South Korea,East Asia & Pacific,2021,51720.0,40086.0,29.02
+South Korea,East Asia & Pacific,2020,40086.0,53169.0,-24.61
+Spain,Europe & Central Asia,2023,64734.0,62327.0,3.86
+Spain,Europe & Central Asia,2022,62327.0,57897.0,7.65
+Spain,Europe & Central Asia,2021,57897.0,43007.0,34.62
+Spain,Europe & Central Asia,2020,43007.0,56683.0,-24.13
+Sweden,Europe & Central Asia,2023,59230.0,62407.0,-5.09
+Sweden,Europe & Central Asia,2022,62407.0,59940.0,4.12
+Sweden,Europe & Central Asia,2021,59940.0,43574.0,37.56
+Sweden,Europe & Central Asia,2020,43574.0,57825.0,-24.64
+Switzerland,Europe & Central Asia,2023,64479.0,58128.0,10.93
+Switzerland,Europe & Central Asia,2022,58128.0,61298.0,-5.17
+Switzerland,Europe & Central Asia,2021,61298.0,45329.0,35.23
+Switzerland,Europe & Central Asia,2020,45329.0,55745.0,-18.68
+Tanzania,Sub-Saharan Africa,2023,10008.0,11057.0,-9.49
+Tanzania,Sub-Saharan Africa,2022,11057.0,9522.0,16.13
+Tanzania,Sub-Saharan Africa,2021,9522.0,5197.0,83.22
+Tanzania,Sub-Saharan Africa,2020,5197.0,8115.0,-35.96
+Thailand,East Asia & Pacific,2023,15763.0,18314.0,-13.93
+Thailand,East Asia & Pacific,2022,18314.0,16491.0,11.06
+Thailand,East Asia & Pacific,2021,16491.0,10324.0,59.73
+Thailand,East Asia & Pacific,2020,10324.0,15443.0,-33.15
+Turkey,Europe & Central Asia,2023,12656.0,12475.0,1.45
+Turkey,Europe & Central Asia,2022,12475.0,13909.0,-10.3
+Turkey,Europe & Central Asia,2021,13909.0,8409.0,65.4
+Turkey,Europe & Central Asia,2020,8409.0,11647.0,-27.8
+Uganda,Sub-Saharan Africa,2023,2854.0,2942.0,-2.98
+Uganda,Sub-Saharan Africa,2022,2942.0,2552.0,15.3
+Uganda,Sub-Saharan Africa,2021,2552.0,1596.0,59.87
+Uganda,Sub-Saharan Africa,2020,1596.0,2292.0,-30.36
+United Kingdom,Europe & Central Asia,2023,73892.0,78921.0,-6.37
+United Kingdom,Europe & Central Asia,2022,78921.0,76534.0,3.12
+United Kingdom,Europe & Central Asia,2021,76534.0,56358.0,35.8
+United Kingdom,Europe & Central Asia,2020,56358.0,71630.0,-21.32
+United States,North America,2023,86100.0,88809.0,-3.05
+United States,North America,2022,88809.0,80669.0,10.09
+United States,North America,2021,80669.0,58212.0,38.58
+United States,North America,2020,58212.0,79572.0,-26.84
+Vietnam,East Asia & Pacific,2023,4204.0,3501.0,20.07
+Vietnam,East Asia & Pacific,2022,3501.0,3402.0,2.92
+Vietnam,East Asia & Pacific,2021,3402.0,2273.0,49.66
+Vietnam,East Asia & Pacific,2020,2273.0,3229.0,-29.61
