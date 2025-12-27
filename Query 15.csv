@@ -1,8 +1,0 @@
-region,total_countries,gdp_data_available,gdp_coverage_pct,gini_data_available,gini_coverage_pct,poverty_data_available,poverty_coverage_pct
-Sub-Saharan Africa,8,8,100.0,8,100.0,8,100.0
-South Asia,1,1,100.0,1,100.0,1,100.0
-North America,2,2,100.0,2,100.0,0,0.0
-Middle East & North Africa,2,2,100.0,2,100.0,2,100.0
-Latin America & Caribbean,4,4,100.0,4,100.0,3,75.0
-Europe & Central Asia,20,20,100.0,20,100.0,2,10.0
-East Asia & Pacific,11,11,100.0,11,100.0,6,54.5
