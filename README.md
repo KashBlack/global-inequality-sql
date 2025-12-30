@@ -305,7 +305,7 @@ sqlite3 global_inequality.db < queries.sql
 ### Kuznets Curve (1955)
 **Hypothesis:** Inequality first increases during early development, then decreases as economies mature (inverted U-shape).
 
-**Test in Project:** Query 3 tracks regional Gini trends over time. Results show mixed evidence—some regions follow the pattern, others show persistent inequality despite growth.
+**Test in Project:** Query 3 tracks regional Gini trends over time. Results show mixed evidence, with some regions following the pattern and others showing persistent inequality despite growth.
 
 ### Convergence Theory
 **Hypothesis:** Poor countries grow faster than rich countries due to catch-up effects (technology transfer, higher marginal returns to capital).
@@ -317,7 +317,7 @@ sqlite3 global_inequality.db < queries.sql
 Based on the SQL analysis:
 
 1. **Education investment** shows the strongest correlation with inequality reduction (-11 Gini points)
-2. **Inclusive growth** (high GDP + low Gini) is achievable—not a trade-off
+2. **Inclusive growth** (high GDP + low Gini) is achievable, and thus not a trade-off
 3. **Regional strategies** matter more than universal policies
 4. **Post-pandemic recovery** offers opportunity for resetting inequality trajectories
 
