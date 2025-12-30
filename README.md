@@ -1,6 +1,6 @@
 # 📊 Global Economic Inequality and Growth Analyzer
 
-**An advanced SQL portfolio project analyzing income inequality, poverty, and economic growth using World Bank data (2015-2023)**
+**A SQL portfolio project analyzing income inequality, poverty, and economic growth using World Bank data (2015-2023)**
 
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
