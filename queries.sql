@@ -1,13 +1,8 @@
--- ============================================================================
--- SQLITE-COMPATIBLE QUERIES FOR GLOBAL INEQUALITY ANALYSIS
--- ============================================================================
--- Run these queries ONE AT A TIME in DB Browser's "Execute SQL" tab
--- Copy one query, paste, click Execute (▶️), then move to the next
--- ============================================================================
 
--- ============================================================================
+
+
 -- QUERY 1: Top 10 Most Unequal Countries (Latest Year)
--- ============================================================================
+
 SELECT 
     cm.country_name,
     cm.region,
@@ -24,9 +19,9 @@ WHERE im.year = (SELECT MAX(year) FROM inequality_metrics)
 ORDER BY im.gini_coefficient DESC
 LIMIT 10;
 
--- ============================================================================
+
 -- QUERY 2: Year-over-Year GDP Growth Rates Using Window Functions
--- ============================================================================
+
 WITH gdp_with_previous AS (
     SELECT 
         cm.country_name,
@@ -56,9 +51,8 @@ WHERE previous_year_gdp IS NOT NULL
     AND year >= 2020
 ORDER BY country_name, year DESC;
 
--- ============================================================================
--- QUERY 3: Regional Average Inequality Trends (SQLite Compatible)
--- ============================================================================
+-- QUERY 3: Regional Average Inequality Trends 
+
 SELECT 
     cm.region,
     im.year,
@@ -73,9 +67,9 @@ WHERE im.gini_coefficient IS NOT NULL
 GROUP BY cm.region, im.year
 ORDER BY cm.region, im.year;
 
--- ============================================================================
+
 -- QUERY 4: High Growth, Low Inequality Champions
--- ============================================================================
+
 WITH recent_performance AS (
     SELECT 
         cm.country_code,
@@ -108,9 +102,9 @@ WHERE avg_gdp_growth_5yr > (SELECT AVG(avg_gdp_growth_5yr) FROM recent_performan
 ORDER BY avg_gdp_growth_5yr DESC, latest_gini ASC
 LIMIT 15;
 
--- ============================================================================
+
 -- QUERY 5: Education-Inequality Correlation Analysis
--- ============================================================================
+
 SELECT 
     CASE 
         WHEN te.secondary_enrollment_rate >= 90 THEN 'High Enrollment (≥90%)'
@@ -133,9 +127,9 @@ WHERE te.secondary_enrollment_rate IS NOT NULL
 GROUP BY education_category
 ORDER BY avg_enrollment_rate DESC;
 
--- ============================================================================
+
 -- QUERY 6: Poverty Reduction Success Stories (2015-2023)
--- ============================================================================
+
 SELECT 
     cm.country_name,
     cm.region,
@@ -166,9 +160,9 @@ WHERE p1.year = 2015
 ORDER BY poverty_reduction_pct_points DESC
 LIMIT 20;
 
--- ============================================================================
+
 -- QUERY 7: Income Group Rankings with NTILE
--- ============================================================================
+
 WITH country_quartiles AS (
     SELECT 
         cm.country_name,
@@ -203,9 +197,9 @@ FROM country_quartiles
 WHERE gdp_quartile = 1 OR inequality_rank <= 3
 ORDER BY income_group, gdp_per_capita DESC;
 
--- ============================================================================
+
 -- QUERY 8: Gini Coefficient Pivot Table
--- ============================================================================
+
 SELECT 
     cm.country_name,
     cm.region,
@@ -227,9 +221,8 @@ HAVING COUNT(DISTINCT im.year) >= 3
 ORDER BY ABS(gini_change_2015_2023) DESC
 LIMIT 25;
 
--- ============================================================================
 -- QUERY 9: Compare Countries Against Global Medians (Simplified)
--- ============================================================================
+
 WITH country_latest AS (
     SELECT 
         cm.country_code,
@@ -273,9 +266,9 @@ WHERE cl.gdp_per_capita_current_usd IS NOT NULL
     AND cl.gini_coefficient IS NOT NULL
 ORDER BY cl.gdp_per_capita_current_usd DESC;
 
--- ============================================================================
+
 -- QUERY 10: Trade Openness vs. Inequality Change (2015-2023)
--- ============================================================================
+
 WITH trade_change AS (
     SELECT 
         country_code,
@@ -322,9 +315,9 @@ WHERE tc.trade_2015 IS NOT NULL
 ORDER BY ABS(ic.gini_2023 - ic.gini_2015) DESC
 LIMIT 30;
 
--- ============================================================================
+
 -- QUERY 11: Post-Pandemic Recovery Analysis (2019 vs. 2023)
--- ============================================================================
+
 WITH pandemic_comparison AS (
     SELECT 
         cm.country_code,
@@ -361,9 +354,8 @@ WHERE gdp_2019 IS NOT NULL
     AND gdp_2023 IS NOT NULL
 ORDER BY gdp_recovery_pct DESC;
 
--- ============================================================================
 -- QUERY 12: Convergence Analysis - Are Poor Countries Catching Up?
--- ============================================================================
+
 WITH baseline_and_growth AS (
     SELECT 
         cm.country_code,
@@ -401,9 +393,8 @@ FROM baseline_and_growth
 ORDER BY cagr_2015_2023 DESC
 LIMIT 40;
 
--- ============================================================================
 -- QUERY 13: Multidimensional Inequality Index
--- ============================================================================
+
 WITH metrics_2023 AS (
     SELECT 
         cm.country_code,
@@ -446,9 +437,9 @@ FROM normalized
 ORDER BY composite_inequality_score DESC
 LIMIT 30;
 
--- ============================================================================
+
 -- QUERY 14: Government Education Spending and Inequality Outcomes
--- ============================================================================
+
 WITH spending_quartiles AS (
     SELECT 
         te.country_code,
@@ -478,9 +469,9 @@ LEFT JOIN poverty_indicators pi ON sq.country_code = pi.country_code AND pi.year
 GROUP BY sq.spending_quartile
 ORDER BY sq.spending_quartile;
 
--- ============================================================================
+
 -- QUERY 15: Data Completeness Report
--- ============================================================================
+
 SELECT 
     cm.region,
     COUNT(DISTINCT cm.country_code) AS total_countries,
