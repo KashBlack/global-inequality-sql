@@ -10,7 +10,7 @@
 
 ## 🎯 Project Overview
 
-This project demonstrates advanced SQL analytics and database design through a comprehensive analysis of global economic inequality. Using sample data modeled after World Bank indicators, I built a normalized relational database and developed **15 complex SQL queries** to extract actionable insights on:
+This project demonstrates advanced SQL analytics and database design through a comprehensive analysis of global economic inequality. Using sample data modeled after World Bank indicators, I built a normalized relational database and developed **15 complex SQL queries** to extract insights on:
 
 - **Income inequality trends** (Gini coefficient analysis)
 - **Economic growth patterns** (GDP convergence testing)
