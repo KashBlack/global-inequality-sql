@@ -18,7 +18,7 @@ This project demonstrates advanced SQL analytics and database design through a c
 - **Post-pandemic recovery** (2019-2023 comparative analysis)
 - **Policy impacts** (trade openness, education spending)
 
-**Key Skills Demonstrated:**
+**Key processes :**
 - Relational database design (normalization, foreign keys, indexing)
 - Advanced SQL (CTEs, window functions, subqueries, complex joins)
 - ETL pipeline development (Python + SQLite)
