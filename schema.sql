@@ -1,10 +1,6 @@
--- ============================================================================
+
 -- GLOBAL ECONOMIC INEQUALITY AND GROWTH ANALYZER - DATABASE SCHEMA
--- ============================================================================
--- Designed for SQLite/PostgreSQL compatibility
--- Author: Economics Portfolio Project
--- Last Updated: December 2025
--- ============================================================================
+
 
 -- Drop existing tables (for clean setup)
 DROP TABLE IF EXISTS poverty_indicators;
@@ -13,9 +9,9 @@ DROP TABLE IF EXISTS gdp_data;
 DROP TABLE IF EXISTS trade_education;
 DROP TABLE IF EXISTS country_metadata;
 
--- ============================================================================
+
 -- TABLE 1: COUNTRY METADATA
--- ============================================================================
+
 -- Stores static country information and regional classifications
 CREATE TABLE country_metadata (
     country_code CHAR(3) PRIMARY KEY,  -- ISO3 code (USA, GBR, etc.)
@@ -30,9 +26,9 @@ CREATE TABLE country_metadata (
 CREATE INDEX idx_region ON country_metadata(region);
 CREATE INDEX idx_income_group ON country_metadata(income_group);
 
--- ============================================================================
+
 -- TABLE 2: GDP DATA
--- ============================================================================
+
 -- Time-series GDP metrics (current USD and growth rates)
 CREATE TABLE gdp_data (
     id INTEGER PRIMARY KEY AUTOINCREMENT,  -- Surrogate key (use SERIAL for PostgreSQL)
@@ -50,9 +46,9 @@ CREATE TABLE gdp_data (
 CREATE INDEX idx_gdp_country_year ON gdp_data(country_code, year);
 CREATE INDEX idx_gdp_year ON gdp_data(year);
 
--- ============================================================================
+
 -- TABLE 3: INEQUALITY METRICS
--- ============================================================================
+
 -- Gini coefficient and income share data
 CREATE TABLE inequality_metrics (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -70,9 +66,9 @@ CREATE TABLE inequality_metrics (
 CREATE INDEX idx_inequality_country_year ON inequality_metrics(country_code, year);
 CREATE INDEX idx_gini ON inequality_metrics(gini_coefficient);
 
--- ============================================================================
+
 -- TABLE 4: POVERTY INDICATORS
--- ============================================================================
+
 -- Poverty headcount ratios at various thresholds
 CREATE TABLE poverty_indicators (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -88,9 +84,9 @@ CREATE TABLE poverty_indicators (
 
 CREATE INDEX idx_poverty_country_year ON poverty_indicators(country_code, year);
 
--- ============================================================================
+
 -- TABLE 5: TRADE AND EDUCATION
--- ============================================================================
+
 -- Policy-relevant indicators: trade openness, human capital
 CREATE TABLE trade_education (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -106,9 +102,7 @@ CREATE TABLE trade_education (
 
 CREATE INDEX idx_trade_edu_country_year ON trade_education(country_code, year);
 
--- ============================================================================
--- VIEWS FOR CONVENIENCE
--- ============================================================================
+
 
 -- Comprehensive view joining all metrics for a given year
 CREATE VIEW latest_comprehensive_data AS
@@ -131,18 +125,4 @@ LEFT JOIN poverty_indicators pi ON cm.country_code = pi.country_code AND gd.year
 LEFT JOIN trade_education te ON cm.country_code = te.country_code AND gd.year = te.year
 WHERE gd.year = (SELECT MAX(year) FROM gdp_data);
 
--- ============================================================================
--- SAMPLE DATA QUALITY CHECKS (Optional - uncomment to use)
--- ============================================================================
-
--- Check for missing GDP data in recent years
--- SELECT country_code, COUNT(*) as missing_years
--- FROM country_metadata
--- WHERE country_code NOT IN (
---     SELECT DISTINCT country_code FROM gdp_data WHERE year >= 2020
--- )
--- GROUP BY country_code;
-
--- ============================================================================
 -- END OF SCHEMA
--- ============================================================================
