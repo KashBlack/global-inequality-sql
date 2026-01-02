@@ -182,7 +182,7 @@ ORDER BY income_group, gdp_per_capita DESC;
 
 ---
 
-**See [queries.sql](queries.sql) for all 15 queries with detailed comments.**
+**See [queries.sql](queries.sql) for all 15 queries with comments.**
 
 ---
 
