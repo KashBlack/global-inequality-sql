@@ -1,31 +1,19 @@
-"""
-============================================================================
-ULTRA-SIMPLE DATA LOADER - NO EXTRA LIBRARIES NEEDED
-============================================================================
-Uses only pandas (already installed) to create sample data.
-Perfect for testing SQL queries without API headaches.
 
-Requirements:
-    pip install pandas
 
-Usage:
-    python load_data_basic.py
-============================================================================
-"""
 
 import pandas as pd
 import sqlite3
 import random
 
-# ============================================================================
+
 # CONFIGURATION
-# ============================================================================
+
 
 DB_PATH = 'global_inequality.db'
 
-# ============================================================================
-# LOAD COUNTRY METADATA
-# ============================================================================
+
+# LOADING COUNTRY METADATA
+
 
 def load_country_metadata(conn):
     """Load country reference data"""
@@ -88,9 +76,8 @@ def load_country_metadata(conn):
     print(f"✓ Loaded {len(df)} countries")
     return df
 
-# ============================================================================
-# LOAD GDP DATA
-# ============================================================================
+# LOADING GDP DATA
+
 
 def load_gdp_data(conn, countries):
     """Generate realistic sample GDP data"""
@@ -145,9 +132,9 @@ def load_gdp_data(conn, countries):
     df.to_sql('gdp_data', conn, if_exists='replace', index=False)
     print(f"✓ Loaded {len(df)} GDP records")
 
-# ============================================================================
-# LOAD INEQUALITY DATA
-# ============================================================================
+
+# LOADING INEQUALITY DATA
+
 
 def load_inequality_data(conn, countries):
     """Generate realistic inequality data"""
@@ -197,9 +184,9 @@ def load_inequality_data(conn, countries):
     df.to_sql('inequality_metrics', conn, if_exists='replace', index=False)
     print(f"✓ Loaded {len(df)} inequality records")
 
-# ============================================================================
-# LOAD POVERTY DATA
-# ============================================================================
+
+# LOADING POVERTY DATA
+
 
 def load_poverty_data(conn, countries):
     """Generate poverty data (mainly for developing countries)"""
@@ -247,9 +234,9 @@ def load_poverty_data(conn, countries):
     df.to_sql('poverty_indicators', conn, if_exists='replace', index=False)
     print(f"✓ Loaded {len(df)} poverty records")
 
-# ============================================================================
-# LOAD TRADE AND EDUCATION DATA
-# ============================================================================
+
+# LOADING TRADE AND EDUCATION DATA
+
 
 def load_trade_education(conn, countries):
     """Generate trade and education data"""
@@ -300,9 +287,9 @@ def load_trade_education(conn, countries):
     df.to_sql('trade_education', conn, if_exists='replace', index=False)
     print(f"✓ Loaded {len(df)} trade/education records")
 
-# ============================================================================
+
 # MAIN EXECUTION
-# ============================================================================
+
 
 def main():
     print("\n" + "="*70)
