@@ -2,11 +2,11 @@
 
 A SQL portfolio project demonstrating database design and complex query techniques using realistic sample data modeled after World Bank development indicators.
 
-## What This Is
+## Motivation and overview
 
-I wanted to practice SQL for data analysis work, so I built a normalized database and wrote 15 increasingly complex queries. The data is synthetic (I generated it with realistic distributions by region and income level), but the SQL techniques are real and applicable to actual World Bank data.
+I wanted to practice SQL for data analysis work, so I built a normalized database and wrote 15 increasingly complex queries. The data is synthetic (I generated it with realistic distributions by region and income level), but the SQL techniques are applicable to actual World Bank data. The aim is to apply complex SQL techniques and draw proxy insights from modelled data. 
 
-Think of this as a SQL skills demonstration rather than an economics project. The queries themselves are what matter here.
+
 
 ## What I Learned
 
@@ -152,13 +152,13 @@ If you want to use this with real data, just download the actual indicators from
 
 ## Why I Built This
 
-I'm an econ student trying to break into data analytics. I wanted something more substantial than tutorial exercises, so I:
+I'm an econ student with an interest in data analytics. I wanted some SQL practice more substantial than tutorial exercises, so I:
 1. Studied the World Bank API structure
 2. Designed a normalized database that could handle their indicators
 3. Generated sample data with realistic constraints
 4. Wrote increasingly complex queries to practice different SQL patterns
 
-The goal was to demonstrate I can work with real-world data structures even if I don't have access to proprietary datasets yet.
+The goal was to practice applying SQL real-world data structures, not to  make real prescriptions based on live data.
 
 ## Known Issues
 
