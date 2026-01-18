@@ -1,6 +1,6 @@
 
 
--- Drop existing tables (for clean setup)
+--Drop existing tables (for clean setup)
 DROP TABLE IF EXISTS poverty_indicators;
 DROP TABLE IF EXISTS inequality_metrics;
 DROP TABLE IF EXISTS gdp_data;
@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS trade_education;
 DROP TABLE IF EXISTS country_metadata;
 
 
--- TABLE 1: COUNTRY METADATA
+--TABLE 1: COUNTRY METADATA
 
 -- Stores static country information and regional classifications
 CREATE TABLE country_metadata (
