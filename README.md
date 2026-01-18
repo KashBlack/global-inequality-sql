@@ -169,7 +169,7 @@ The goal was to demonstrate I can work with real-world data structures even if I
 
 ## License
 
-MIT - use this however you want
+MIT - use this as needed
 
 ## Contact
 
