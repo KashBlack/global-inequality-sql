@@ -15,7 +15,7 @@ COUNTRY METADATA
 
 def load_country_metadata(conn):
     """Load country reference data"""
-    print("Loading country metadata...")
+    
     
     countries_data = {
         'country_code': ['USA', 'GBR', 'DEU', 'FRA', 'JPN', 'CHN', 'IND', 'BRA', 
@@ -79,7 +79,7 @@ GDP DATA
 
 def load_gdp_data(conn, countries):
     """Generate realistic sample GDP data"""
-    print("Creating GDP data...")
+    
     
     # Base GDP per capita by income group (realistic ranges)
     gdp_ranges = {
@@ -188,7 +188,7 @@ POVERTY DATA
 
 def load_poverty_data(conn, countries):
     """Generate poverty data (mainly for developing countries)"""
-    print("Creating poverty data...")
+    
     
     data = []
     years = [2015, 2017, 2019, 2021, 2023]
@@ -237,7 +237,7 @@ def load_poverty_data(conn, countries):
 
 def load_trade_education(conn, countries):
     """Generate trade and education data"""
-    print("Creating trade and education data...")
+    
     
     data = []
     for _, country in countries.iterrows():
